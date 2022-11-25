@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Lower the costs for your house",
+    "description": "With data and knowledge we can help you lower the costs for your house."
+  },
+  "brand": {
+    "name": "Villacosts",
+    "domain": "Villacosts.com"
+  },
+  "label": {
+    "sign-up": "Sign up",
+    "sign-in": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "trust-this-device": "Trust this device (Remember me)",
+    "do-not-trust-this-device": "Don't trust this device"
+  },
+  "subs": {
+    "do-not-have-an-account": "Don't have an account? <1>Sign up</1>",
+    "already-have-an-account": "Already have an account? <1>Sign in</1>"
+  }
+}

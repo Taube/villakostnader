@@ -1,0 +1,22 @@
+{
+  "home": {
+    "title": "Sänk dina villakostnader",
+    "description": "Med samlad kunskap och expertis kan vi hjälpa dig sänka dina villakostnader."
+  },
+  "brand": {
+    "name": "Villakostnader",
+    "domain": "Villakostnader.se"
+  },
+  "label": {
+    "sign-up": "Registrera",
+    "sign-in": "Logga in",
+    "username": "Användarnamn",
+    "password": "Lösenord",
+    "trust-this-device": "Lita på den här enheten (Kom ihåg mig)",
+    "do-not-trust-this-device": "Lita inte på den här enheten"
+  },
+  "subs": {
+    "do-not-have-an-account": "Har du inget konto? <1>Registrera</1>",
+    "already-have-an-account": "Har du redan konto? <1>Logga in</1>"
+  }
+}

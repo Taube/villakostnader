@@ -13,7 +13,11 @@ export default defineConfig(({ command, mode }) => {
     plugins: [react()],
     server: {
       port: 3000,
-      open: true,
+      watch: {
+        usePolling: true,
+      },
+      host: true, // needed for the Docker Container port mapping to work
+      strictPort: true,
     },
     preview: {
       port: 3000,

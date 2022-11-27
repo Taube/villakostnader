@@ -144,7 +144,7 @@ export const Header = () => {
                     to="/sign-in"
                     variant="outlined"
                   >
-                    {t("label.sign-up")}
+                    {t("label.sign-in")}
                   </LinkButton>
                   <LinkButton
                     id="link-sign-up"

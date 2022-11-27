@@ -1,4 +1,4 @@
-import { Avatar, Typography } from "@mui/material"
+import { Typography } from "@mui/material"
 import { Section } from "../layouts/Section"
 
 export const Hero = ({

@@ -10,7 +10,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
+    debug: false,
     load: "languageOnly",
     whitelist: ["en", "sv"],
     fallbackLng: "sv",

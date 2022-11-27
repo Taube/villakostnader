@@ -37,12 +37,12 @@ Available commands: `yarn dev`, `yarn build` and `yarn test`.
 
 ## Build the container
 
-> docker build -t getitdone/villakostnader .
+`docker build -t getitdone/villakostnader-frontend .`
 
 ## Run the container
 
-> docker run -p 3000:80 getitdone/villakostnader
+`docker run -p 3000:80 getitdone/villakostnader-frontend`
 
 ## Push the conatiner
 
-> docker push getitdone/villakostnader
+`docker push getitdone/villakostnader-frontend`

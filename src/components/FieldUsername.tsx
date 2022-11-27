@@ -8,8 +8,6 @@ export const FieldUsername = ({ id, disabled, ...rest }: FieldProps) => {
   const { t } = useTranslation()
   const testId = useTestId(id)
 
-  console.log(id, testId)
-
   return (
     <TextField
       id={id}

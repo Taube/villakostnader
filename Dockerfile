@@ -12,7 +12,6 @@ RUN npm run build
 # production stage
 FROM nginx:stable-alpine AS production
 COPY --from=build /app/dist /usr/share/nginx/html
-COPY nginx.conf /data/conf/nginx.conf
 
 EXPOSE 80
-CMD ["nginx", "-c", "/data/conf/nginx.conf", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
